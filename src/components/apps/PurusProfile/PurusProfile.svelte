@@ -8,8 +8,9 @@
   <header class="app-window-drag-handle" />
   <div>
     <iframe
-      src="https://ag.prtl.cc"
+      src="https://prtl.cc"
       title="Agents"
+      allow="camera;microphone"
     />
   </div>
 </section>
