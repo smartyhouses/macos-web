@@ -75,7 +75,7 @@ const vercel = createAppConfig({
 
   shouldOpenWindow: false,
   externalAction: () =>
-    window.open('https://www.prtl.cc', '_blank'),
+    window.open('https://prtl.cc', '_blank'),
 
   dockBreaksBefore: true,
 });
