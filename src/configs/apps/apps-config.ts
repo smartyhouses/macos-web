@@ -62,20 +62,20 @@ const purusTwitter = create_app_config({
 });
 
 const viewSource = create_app_config({
-	title: `View Source`,
+	title: `Agents`,
 	resizable: true,
 
 	should_open_window: false,
-	external_action: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
+	external_action: () => window.open('https://ag.portalos.ru', '_blank'),
 });
 
 const vercel = create_app_config({
-	title: `Powered by Vercel`,
+	title: `Portal`,
 	resizable: true,
 
 	should_open_window: false,
 	external_action: () =>
-		window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
+		window.open('https://portalos.ru', '_blank'),
 
 	dock_breaks_before: true,
 });
