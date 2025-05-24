@@ -17,19 +17,13 @@
 		<span>About</span>
 	</header>
 
-	<aside class:light={preferences.theme.scheme === 'light'}>
+	<aside class:light={preferences.theme.scheme === 'dark'}>
 		<nav>
 			<a href="https://portalos.ru" use:external> <BlogIcon /> Blog </a>
 			<a href="https://ag.portalos.ru" use:external> <WorksIcon /> Agents </a>
 
 			<hr />
-
-			<a href="https://portalos.ru" use:external>
-				<TwitterIcon />
-				Twitter
-			</a>
-			<a href="https://portalos.ru" use:external> <GithubIcon /> Github </a>
-			<a href="https://portalos.ru" use:external> <DevToIcon /> Dev.to </a>
+			
 		</nav>
 	</aside>
 
