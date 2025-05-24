@@ -52,7 +52,7 @@ const systemPreferences = create_app_config({
 });
 
 const purusTwitter = create_app_config({
-	title: `About the Developer`,
+	title: `About`,
 	resizable: true,
 
 	dock_breaks_before: true,
