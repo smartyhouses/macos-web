@@ -36,6 +36,7 @@ export function portal(el: HTMLElement, target: HTMLElement | string = 'body') {
 		el.hidden = false;
 	}
 
+	
 	function destroy() {
 		if (el.parentNode) {
 			el.parentNode.removeChild(el);
