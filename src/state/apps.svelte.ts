@@ -7,28 +7,30 @@ export const apps = $state({
 		wallpapers: false,
 		finder: true,
 		vscode: false,
+		agnts: false,
 		calculator: false,
 		// safari: false,
 		appstore: false,
 		calendar: false,
 		// 'system-preferences': false,
-
+		
 		'purus-twitter': false,
 		'view-source': true,
-
+		
 		vercel: true,
 	} as Record<AppID, boolean>,
-
+	
 	active: 'finder' satisfies AppID,
-
+	
 	/**
 	 * Maximum zIndex for the active app
 	 * Initialize with -2, so that it becomes 0 when initialised
-	 */
+	*/
 	active_z_index: -2,
-
+	
 	z_indices: {
 		wallpapers: 0,
+		agnts: 0,
 		finder: 0,
 		vscode: 0,
 		calculator: 0,
@@ -49,6 +51,7 @@ export const apps = $state({
 		wallpapers: false,
 		finder: false,
 		vscode: false,
+		agnts: false,
 		calculator: false,
 		// safari: false,
 		appstore: false,
