@@ -14,7 +14,7 @@
 	<div>
 		<iframe
 			src="https://ag.portalos.ru"
-			title="VS Code for macOS Web"
+			title="agents"
 		></iframe>
 	</div>
 </section>
