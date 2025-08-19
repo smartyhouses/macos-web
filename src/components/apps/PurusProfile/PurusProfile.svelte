@@ -14,22 +14,22 @@
 
 <section class="container">
 	<header class="titlebar app-window-drag-handle">
-		<span>About the Developer</span>
+		<span>About</span>
 	</header>
 
 	<aside class:light={preferences.theme.scheme === 'light'}>
 		<nav>
-			<a href="https://www.puruvj.dev/blog" use:external> <BlogIcon /> Blog </a>
-			<a href="https://www.puruvj.dev/works" use:external> <WorksIcon /> Works </a>
+			<a href="https://www.portalos.ru" use:external> <BlogIcon /> A </a>
+			<a href="https://www.portalos.ru" use:external> <WorksIcon /> B </a>
 
 			<hr />
 
-			<a href="https://www.puruvj.dev/twitter" use:external>
+			<a href="https://www.portalos.ru" use:external>
 				<TwitterIcon />
-				Twitter
+				C
 			</a>
-			<a href="https://www.puruvj.dev/github" use:external> <GithubIcon /> Github </a>
-			<a href="https://www.puruvj.dev/devto" use:external> <DevToIcon /> Dev.to </a>
+			<a href="https://www.portalos.ru" use:external> <GithubIcon /> D </a>
+			<a href="https://www.portalos.ru" use:external> <DevToIcon /> E </a>
 		</nav>
 	</aside>
 
@@ -38,26 +38,24 @@
 
 		<br />
 
-		<h1>Hi, I'm Puru</h1>
+		<h1>Hi, let's open Portal</h1>
 
 		<h2>
-			I'm the creator of macOS Web, which you're on right now
+			Hi there!
 			<img src="/emojis/wink.png" alt="Wink emoji" class="emoji" />
 		</h2>
 
 		<br /><br />
 
 		<p>
-			I am a fullstack web developer, with an infinite amount of love for frontend web development,
-			esp JavaScript, TypeScript, and for frontend frameworks like Svelte, Vue and React
+			Agentic cloud OS
 			<img src="/emojis/star-struck.png" alt="Star Struck face emoji" class="emoji" />
 		</p>
 
 		<br /><br />
 
 		<p>
-			However, my love for tech doesn't end there. I enjoy writing backend APIs, scripts, working
-			with databases, and my fav platforms are NodeJS, Deno and Go
+			That's really cool u know
 		</p>
 	</section>
 </section>
